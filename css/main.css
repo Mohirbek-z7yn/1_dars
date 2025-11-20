@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #121517;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.header-inner {
+    margin: 23px;
+    padding: 0;
+}
+
+.header-inner-list {    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-inner-list-item {
+    margin: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.header-inner-list-item-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .cafe {
+    background-image: url("../images/sectionlogo.png"), url("../images/section.png");
+    background-position: 0, 1200px, 0, 1200px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 550px 550px, 400px 400px, 400px 400px, 1000px 800px;
+
+} */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.cafe-inner-top {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.cafe-inner-top-title {
+    font-size: 70px;
+    color: white;
+    margin: 0 0 34px 0;
+    padding: 0;
+}
+
+.cafe-inner-top-title-span {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    background: #35C66B;
+    background: linear-gradient(to right, #35C66B 0%, #237249 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cafe-inner-top-pages {
+    color: #D9D9D9;
+    margin: 0 0 70px 0;
+    padding: 0;
+}
+
+.cafe-inner-top-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 0;
+    list-style: none
+}
+
+.cafe-inner-top-list-item-left-link {
+    background: #35C66B;
+    background: linear-gradient(90deg, rgba(53, 198, 107, 1) 0%, rgba(35, 114, 73, 1) 100%);
+    text-decoration: none;
+    border-radius: 80px;
+    padding: 13px 50px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+
+.cafe-inner-top-list-item-right-link {
+    background-color: #121517;
+    margin: 0;
+    padding: 13px 30px;
+    border: 1px solid rgba(218, 218, 218, 1);
+    border-radius: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+
+.cafe-inner-bottom-list {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cafe-inner-bottom-list-item {
+    width: 150px;
+    margin: 0;
+    padding: 0
+}
+
+.cafe-inner-bottom-list-item-title {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    gap: 3px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.cafe-inner-bottom-list-item-pages {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    gap: 3px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.cafe-inner-bottom-list-item-title-span {
+    color: #237249;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
